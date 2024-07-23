@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "/node_modules/@types/react/index";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import ClickCard from "/src/components/ClickCard/ClickCard";
 import DetailsCard from "/src/components/DetailsCard/DetailsCard";
