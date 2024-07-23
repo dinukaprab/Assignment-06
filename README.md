@@ -1,4 +1,4 @@
-## online NIC Details Generator application.
+## Online NIC Details Generator application.
 <p>Hello Guys! This is the 06th Assignment from ACPT Academy.</p>
 <p>NIC Details Generator application. - React </p>
 
