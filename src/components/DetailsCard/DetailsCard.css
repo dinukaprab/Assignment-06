@@ -1,0 +1,75 @@
+.details-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  padding: 3px;
+  cursor: pointer;
+  background-color: aliceblue;
+  border-radius: 50%;
+  color: #000000;
+}
+
+.sub-btn {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-block-end: 25px;
+}
+
+.sub-btn button {
+  width: 100%;
+}
+
+.sub-text {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.text-fields {
+  background-color: rgba(194, 224, 194, 0.555);
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 1px;
+  border-radius: 2px;
+  display: none;
+}
+
+.text-fields h5 {
+  position: absolute;
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 15px;
+}
+
+.text-fields h3 {
+  position: absolute;
+  color: rgb(0, 82, 16);
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 40px;
+}
+
+.details-text {
+  margin: 10px;
+}
+
+.details-card .text-fields {
+  display: block;
+}
