@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "/node_modules/@types/react/index";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";

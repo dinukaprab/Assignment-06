@@ -1,4 +1,4 @@
-import React from "react";
+import React from "/node_modules/@types/react/index";
 import "src/components/ClickCard/ClickCard.jsx";
 
 export default function ClickCard({ handleClick }) {
