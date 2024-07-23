@@ -10,7 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import "./DetailsCard.css";
+import "/src/components/DetailsCard/DetailsCard.css";
 
 const top100Films = [];
 

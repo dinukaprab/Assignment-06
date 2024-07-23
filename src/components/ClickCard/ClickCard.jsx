@@ -1,5 +1,5 @@
 import React from "react";
-import "./ClickCard.css";
+import "src/components/ClickCard/ClickCard.jsx";
 
 export default function ClickCard({ handleClick }) {
   return (
