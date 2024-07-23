@@ -127,7 +127,7 @@ export default function DetailsCard({ handleClose }) {
               <Typography variant="body2" color="text.secondary">
                 <div className="text-fields">
                   <div className="details-text">
-                    <h5>NIC No:</h5>
+                    <h5>Nic No:</h5>
                     <h3>{details.nicNumber}</h3>
                   </div>
                 </div>
