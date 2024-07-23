@@ -1,8 +1,8 @@
-import React, { useState } from "/node_modules/@types/react/index";
+import React, { useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import ClickCard from "/src/components/ClickCard/ClickCard";
-import DetailsCard from "/src/components/DetailsCard/DetailsCard";
-import "src/App.css";
+import ClickCard from "./components/ClickCard/ClickCard";
+import DetailsCard from "./components/DetailsCard/DetailsCard";
+import "./App.css";
 
 function App() {
   const [showDetailsCard, setShowDetailsCard] = useState(false);

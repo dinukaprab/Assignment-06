@@ -1,5 +1,5 @@
-import React from "/node_modules/@types/react/index";
-import "src/components/ClickCard/ClickCard.jsx";
+import React from "react";
+import "./ClickCard.css";
 
 export default function ClickCard({ handleClick }) {
   return (

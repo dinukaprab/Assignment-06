@@ -1,4 +1,4 @@
-import React, { useState } from "/node_modules/@types/react/index";
+import React, { useState } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -10,7 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import "/src/components/DetailsCard/DetailsCard.css";
+import "./DetailsCard.css";
 
 const top100Films = [];
 
