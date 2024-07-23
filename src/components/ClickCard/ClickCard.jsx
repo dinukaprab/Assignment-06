@@ -11,7 +11,7 @@ export default function ClickCard({ handleClick }) {
         </div>
         <div className="nic">
           <div className="img-container">
-            <img src="/src/assets/nic-img.png" alt="NIC" />
+            <img src='/public/nic-img.png' alt="NIC" />
             <div className="overlay" onClick={handleClick}>
               Click
             </div>

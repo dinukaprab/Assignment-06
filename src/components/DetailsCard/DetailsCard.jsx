@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Card from "/node_modules/@mui/material/Card";
+import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { styled } from "@mui/material/styles";
@@ -87,7 +87,7 @@ export default function DetailsCard({ handleClose }) {
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             sx={{ height: 200, borderRadius: 3 }}
-            image="/src/assets/hand-img.png"
+            image="/public/hand-img.png"
           />
           <CloseIcon className="close-icon" onClick={handleClose} />
           <CardContent>
